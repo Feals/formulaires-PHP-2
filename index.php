@@ -16,7 +16,7 @@
 
 <div>
 
-  <label  for="prénom">Nom :</label>
+  <label  for="prénom">Prénom :</label>
 
   <input  type="text"  id="prénom"  name="firstname">
 
