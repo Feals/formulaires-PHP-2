@@ -42,7 +42,7 @@
 
   <label  for="phone">Numéro de Téléphone :</label>
 
-  <textarea  id="phone"  name="user_phone_number"></textarea>
+  <input  id="phone"  name="user_phone_number">
 
 </div>
 
