@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,11 +7,10 @@
   <title>Document</title>
 </head>
 <body>
-
 <form  action="form.php"  method="post">
+  
 
-<div>
-
+<div >
   <label  for="prénom">Prénom :</label>
 
   <input  type="text"  id="prénom"  name="firstname">
@@ -53,7 +48,7 @@
            <option value="multi-directionnal_Array">Les tableaux multi-directionels ?</option>
            <option value="form">la création d'un formulaire ?</option>
            <option value="else">autres ?</option>
-           </select>
+          required </select>
 
 </div>
 
