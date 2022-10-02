@@ -13,7 +13,7 @@
 <div >
   <label  for="prénom">Prénom :</label>
 
-  <input  type="text"  id="prénom"  name="firstname">
+  <input  type="text"  id="prénom"  name="firstname" required>
 
 </div>
 
@@ -21,7 +21,7 @@
 
   <label  for="nom">Nom :</label>
 
-  <input  type="text"  id="nom"  name="lastname">
+  <input  type="text"  id="nom"  name="lastname" required>
 
 </div>
 
@@ -29,7 +29,7 @@
 
   <label  for="courriel">Courriel :</label>
 
-    <input  type="email"  id="courriel"  name="user_email">
+    <input  type="email"  id="courriel"  name="user_email" required>
 
 </div>
 
@@ -37,7 +37,7 @@
 
   <label  for="phone">Numéro de Téléphone :</label>
 
-  <input  id="phone"  name="user_phone_number">
+  <input  id="phone"  name="user_phone_number" required>
 
 </div>
 
@@ -57,7 +57,7 @@
 
   <label  for="message">Message :</label>
 
-  <textarea  id="message"  name="user_message"></textarea>
+  <textarea  id="message"  name="user_message"></textarea required>
 
 </div>
 
