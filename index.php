@@ -44,11 +44,11 @@
 <div>
 
 <label for="Problem">votre problème concerne?</label>
-       <select name="Problem" id="Problem">
+       <select name="Problem" id="Problem" required>
            <option value="multi-directionnal_Array">Les tableaux multi-directionels ?</option>
            <option value="form">la création d'un formulaire ?</option>
            <option value="else">autres ?</option>
-          required </select>
+           </select>
 
 </div>
 
@@ -57,7 +57,7 @@
 
   <label  for="message">Message :</label>
 
-  <textarea  id="message"  name="user_message"></textarea required>
+  <textarea  id="message"  name="user_message" required></textarea>
 
 </div>
 
